@@ -3,9 +3,7 @@ from openai import OpenAI
 from pathlib import Path
 import time
 import utils
-import openai
 
-openai.api_key = st.secrets["api_keys"]["openai_api_key"]
 
 PASTA_ARQUIVOS = Path(__file__).parent / "Arquivos"
 
