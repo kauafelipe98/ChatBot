@@ -4,6 +4,8 @@ from pathlib import Path
 import time
 import utils
 
+opani.api_key = st.secrets["api_keys"]["openai_api_key"]
+
 PASTA_ARQUIVOS = Path(__file__).parent / "Arquivos"
 
 #python -m streamlit run Home.py  --server.enableXsrfProtection false
