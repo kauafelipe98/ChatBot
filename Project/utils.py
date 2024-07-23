@@ -75,7 +75,7 @@ Usuário: "Iniciar DataMaster" DataMaster: "Obrigado por enviar sua planilha. Va
                             "file_id": file.id,
                             "tools": [{"type": "code_interpreter"}]
                         }
-                    ]
+                    ],
                 }
             ]
         )
