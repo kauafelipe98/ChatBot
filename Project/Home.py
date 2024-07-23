@@ -3,9 +3,6 @@ from openai import OpenAI
 from pathlib import Path
 import time
 import utils
-from dotenv import load_dotenv, find_dotenv
-
-_ = load_dotenv(find_dotenv())
 
 PASTA_ARQUIVOS = Path(__file__).parent / "Arquivos"
 
