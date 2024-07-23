@@ -1,5 +1,8 @@
 from openai import OpenAI
 from Home import chat_window
+from dotenv import load_dotenv, find_dotenv
+
+_ = load_dotenv(find_dotenv())
 
 def create_assistant(file_path, new_message, thread_id=None):
     client = OpenAI()
