@@ -1,8 +1,12 @@
 from openai import OpenAI
 from Home import chat_window
+import streamlit as st
+import openai
+
+openai.api_key = st.secrets["api_keys"]["openai_api_key"]
 
 def create_assistant(file_path, new_message, thread_id=None):
-    client = OpenAI()
+    client = OpenAI(api_key=openai.api_key)
 
     assistant_id = "asst_hXtWb0KJFKluwl2jJr0ov5tZ"
 
