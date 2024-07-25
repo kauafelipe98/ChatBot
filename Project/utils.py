@@ -10,7 +10,7 @@ openai.api_key = st.secrets["api_keys"]["openai_api_key"]
 def create_assistant(file_path, new_message, thread_id=None):
     client = OpenAI(api_key=openai.api_key)
 
-    assistant_id = "asst_hXtWb0KJFKluwl2jJr0ov5tZ"
+    assistant_id = "asst_anuVcAs1JQv68xlekIaX907F"
 
     instrucoes = """"
     Nome do Agente: DataMaster
