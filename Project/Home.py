@@ -5,7 +5,7 @@ import time
 import utils
 
 
-PASTA_ARQUIVOS = Path(__file__).parent / "Arquivos"
+PASTA_ARQUIVOS = Path(__file__).parent
 
 #python -m streamlit run Home.py  --server.enableXsrfProtection false
 
